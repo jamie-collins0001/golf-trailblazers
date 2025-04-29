@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Button, Card, Carousel, Col, Image, Row, Typography } from 'antd';
+import { Button, Carousel, Col, Image, Row, Typography } from 'antd';
 
 const { Title } = Typography;
 
@@ -133,7 +133,7 @@ const Home = () => {
           </Button>
         </div>
       </div>
-      <div className='golf-clubs'>
+      {/* <div className='golf-clubs'>
         <Title style={{ textAlign: 'center', fontWeight: 'bold', margin: 0 }}>
           Carnoustie Golf Club and The Smith Society have selected Golf Trailblazers as their partner of choice
         </Title>
@@ -167,7 +167,7 @@ const Home = () => {
             </Col>
           </Row>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
