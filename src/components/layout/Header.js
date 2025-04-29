@@ -37,7 +37,7 @@ const Header = () => {
           </div>
           <nav className="header-nav-desktop">
             <Link to="/service" style={{ margin: "0 10px", padding: "6px 8px", color: "#333" }}>Our Services</Link>
-            <Link to="/package" style={{ margin: "0 10px", padding: "6px 8px", color: "#333" }}>Out Packages</Link>
+            <Link to="/package" style={{ margin: "0 10px", padding: "6px 8px", color: "#333" }}>Our Packages</Link>
             <Link to="/who" style={{ margin: "0 10px", padding: "6px 8px", color: "#333" }}>Who We Are</Link>
             <Link to="/contact" style={{ margin: "0 10px", padding: "6px 8px", color: "#333" }}>Contact</Link>
           </nav>
