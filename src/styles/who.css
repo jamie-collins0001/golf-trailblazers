@@ -1,0 +1,33 @@
+.who {
+    padding: 24px 0;
+}
+
+.who-content-left, .who-content-right {
+    padding: 0 4rem!important;
+}
+.who-title {
+    font-size: 2.5rem!important;
+    font-weight: bold!important;
+}
+.who-subtitle {
+    font-weight: bold!important;
+}
+
+.who-description {
+    font-weight: bold!important;
+}
+.who-subdecription {
+    font-weight: normal!important;
+}
+
+@media screen and (max-width: 1024px) {
+    .who-content-left, .who-content-right {
+        padding: 0 2rem!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .who-content-left, .who-content-right {
+        padding: 0 2rem!important;
+    }
+}

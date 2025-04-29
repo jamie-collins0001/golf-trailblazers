@@ -1,0 +1,130 @@
+.service-header {
+    position: relative;
+    background-image: url("/public/assets/service/service-header.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    padding-top: 8rem;
+}
+.service-header-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+.service-header-title {
+    position: relative;
+    z-index: 11;
+    color: white!important;
+    font-weight: bold!important;
+    text-align: center;
+}
+.service-header-description {
+    position: relative;
+    z-index: 11;
+    color: white!important;
+    font-weight: bold!important;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    font-size: 3rem!important;
+}
+
+/* Content */
+.service-content {
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+/* Footer */
+.service-footer {
+    padding: 4rem 2rem;
+    background: black;
+}
+.service-footer-title {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 11;
+    background: white;
+    width: 40%;
+}
+.service-footer-title h3 {
+    font-size: 1.5rem;
+    font-weight: bold!important;
+}
+
+.service-footer-title h5 {
+    font-size: 1rem;
+}
+
+.service-footer-sub-title {
+    display: none;
+}
+
+.service-footer-sub-title h3 {
+    color: white!important;
+}
+
+.service-footer-sub-title h5 {
+    color: white!important;
+}
+@media screen and (max-width: 1268px) {
+    .service-header-description {
+        width: 50%;
+    }
+    .service-footer-title h3 {
+        font-size: 1.2rem;
+    }
+    .service-footer-title h5 {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .service-header {
+        height: 500px;
+        padding-top: 6rem;
+    }
+    .service-header-title {
+        font-size: 1rem!important;
+    }
+    .service-header-description {
+        font-size: 3rem!important;
+        width: 60%;
+    }
+    .service-footer-title h3 {
+        font-size: 1rem;
+    }
+    .service-footer-title h5 {
+        font-size: 0.75rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .service-header {
+        height: 350px;
+        padding-top: 3rem;
+    }
+    .service-header-description {
+        font-size: 2rem!important;
+        width: 100%;
+    }
+    .service-content {
+         padding: 2rem 1rem 0 1rem;
+    }
+    .service-footer {
+        padding: 2rem 1rem;
+    }
+    .service-footer-title {
+        display: none;
+    }
+    .service-footer-sub-title {
+        display: block;
+    }
+}
+@media screen and (max-width: 576px) {
+
+}

@@ -1,0 +1,19 @@
+/* Ensure the layout fills the full height */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the whole page is at least the height of the viewport */
+}
+
+/* Makes the main content area flexible */
+.main {
+    flex: 1; /* Expands to fill available space */
+}
+
+/* Footer styling to always appear correctly */
+footer {
+    flex-shrink: 0; /* Prevents the footer from shrinking when content overflows */
+}
+
+@import "./header.css";
+@import "./footer.css";
